@@ -18,5 +18,10 @@
     "name": "Dizilla",
     "fileName": "dizilla-v3.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v7/dizilla-v3.apk"
+  },
+  {
+    "name": "Sahadan",
+    "fileName": "sahadan-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v10/sahadan-v1.apk"
   }
 ]
