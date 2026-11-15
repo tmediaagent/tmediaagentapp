@@ -1,0 +1,17 @@
+[
+  {
+    "name": "SporCafe",
+    "fileName": "sporcafe-v4.apk",
+    "downloadUrl": "https://github.com/omnivushqdev/premierbloud-plugins/releases/download/v4/sporcafe-v4.apk"
+  },
+  {
+    "name": "FilmEkseni",
+    "fileName": "filmekseni-v5.apk",
+    "downloadUrl": "https://github.com/omnivushqdev/premierbloud-plugins/releases/download/v9/filmekseni-v5.apk"
+  },
+  {
+    "name": "FullHDFilm",
+    "fileName": "fullhdfilm-v2.apk",
+    "downloadUrl": "https://github.com/omnivushqdev/premierbloud-plugins/releases/download/v11/fullhdfilm-v2.apk"
+  }
+]
