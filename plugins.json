@@ -28,5 +28,10 @@
     "name": "Geil TV",
     "fileName": "geil-v1.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v14/geil-v1.apk"
+  },
+  {
+    "name": "DGO",
+    "fileName": "dogumgunu-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v15/dogumgunu-v1.apk"
   }
 ]
