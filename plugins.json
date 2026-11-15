@@ -23,5 +23,10 @@
     "name": "Sahadan",
     "fileName": "sahadan-v4.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v13/sahadan-v4.apk"
+  },
+  {
+    "name": "Geil TV",
+    "fileName": "geil-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v14/geil-v1.apk"
   }
 ]
