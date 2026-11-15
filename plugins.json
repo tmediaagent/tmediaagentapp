@@ -13,5 +13,10 @@
     "name": "FullHDFilm",
     "fileName": "fullhdfilm-v2.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v2/fullhdfilm-v2.apk"
+  },
+  {
+    "name": "Dizilla",
+    "fileName": "dizilla-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v3/dizilla-v1.apk"
   }
 ]
