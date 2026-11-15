@@ -33,5 +33,10 @@
     "name": "Ulusal Kanallar",
     "fileName": "ulusalkanallar-v1.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v16/ulusalkanallar-v1.apk"
+  },
+  {
+    "name": "Tabii TV",
+    "fileName": "tabii-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v17/tabii-v1.apk"
   }
 ]
