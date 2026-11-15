@@ -28,5 +28,10 @@
     "name": "DGO",
     "fileName": "dogumgunu-v1.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v15/dogumgunu-v1.apk"
+  },
+  {
+    "name": "Ulusal Kanallar",
+    "fileName": "ulusalkanallar-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v16/ulusalkanallar-v1.apk"
   }
 ]
