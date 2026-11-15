@@ -14,7 +14,6 @@
     "fileName": "dizilla-v3.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v7/dizilla-v3.apk"
   },
- 
   {
     "name": "Geil TV",
     "fileName": "geil-v1.apk",
@@ -34,5 +33,10 @@
     "name": "Tabii TV",
     "fileName": "tabii-v1.apk",
     "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v17/tabii-v1.apk"
+  },
+  {
+    "name": "Macko",
+    "fileName": "macko-v1.apk",
+    "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v24/macko-v1.apk"
   }
 ]
