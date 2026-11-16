@@ -38,5 +38,10 @@
         "name": "Macko",
         "fileName": "macko-v4.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v27/macko-v4.apk"
+    },
+    {
+        "name": "Lider Filmizle",
+        "fileName": "liderfilmizle-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v29/liderfilmizle-v1.apk"
     }
 ]
