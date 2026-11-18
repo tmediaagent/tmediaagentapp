@@ -38,5 +38,10 @@
         "name": "Lider Filmizle",
         "fileName": "liderfilmizle-v2.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v30/liderfilmizle-v2.apk"
+    },
+    {
+        "name": "HDFilmIzleyelim",
+        "fileName": "hdfilmizleyelim-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v31/hdfilmizleyelim-v1.apk"
     }
 ]
