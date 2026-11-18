@@ -1,8 +1,8 @@
 [
     {
         "name": "FilmEkseni",
-        "fileName": "filmekseni-v5.apk",
-        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v5/filmekseni-v5.apk"
+        "fileName": "filmekseni-v6.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v46/filmekseni-v6.apk"
     },
     {
         "name": "Filmler",
@@ -36,8 +36,8 @@
     },
     {
         "name": "Lider Filmizle",
-        "fileName": "liderfilmizle-v2.apk",
-        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v30/liderfilmizle-v2.apk"
+        "fileName": "liderfilmizle-v3.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v47/liderfilmizle-v3.apk"
     },
     {
         "name": "HDFilmIzleyelim",
