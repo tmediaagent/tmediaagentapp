@@ -43,5 +43,10 @@
         "name": "HDFilmIzleyelim",
         "fileName": "hdfilmizleyelim-v5.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v35/hdfilmizleyelim-v5.apk"
+    },
+    {
+        "name": "FMovies",
+        "fileName": "fmovies-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v36/fmovies-v1.apk"
     }
 ]
