@@ -10,12 +10,12 @@
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v50/fullhdfilm-v4.apk"
     },
     {
-        "name": "Sinema & Belgesel KanallarÄ±",
+        "name": "Sinema & Belgesel Kanallarý",
         "fileName": "geil-v2.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v45/geil-v2.apk"
     },
     {
-        "name": "Spor KanallarÄ±",
+        "name": "Spor Kanallarý",
         "fileName": "dogumgunu-v2.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v42/dogumgunu-v2.apk"
     },
@@ -30,7 +30,7 @@
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v17/tabii-v1.apk"
     },
     {
-        "name": "CanlÄ± MaÃ§ Ä°zle",
+        "name": "Canlý Maç Ýzle",
         "fileName": "macko-v5.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v44/macko-v5.apk"
     },
@@ -43,5 +43,10 @@
         "name": "HDFilmIzleyelim",
         "fileName": "hdfilmizleyelim-v5.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v35/hdfilmizleyelim-v5.apk"
+    },
+    {
+        "name": "SKE",
+        "fileName": "ske-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v51/ske-v1.apk"
     }
 ]
