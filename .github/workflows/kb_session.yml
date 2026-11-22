@@ -1,0 +1,50 @@
+name: kb-session-refresh
+on:
+  schedule:
+    - cron: '7 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: FreeReels anonymous login -> kb_session.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import requests, uuid, hashlib, json, subprocess, base64, sys
+          BASE='https://apiv2.free-reels.com/frv2-api'
+          SALT='8IAcbWyCsVhYv82S2eofRqK1DF3nNDAv'
+          did=str(uuid.uuid4())
+          h={'User-Agent':'okhttp/4.12.0','Accept':'application/json','device-id':did,
+             'device-version':'34','app-version':'2.0.0','app-name':'com.freereels.app',
+             'device':'android','x-device-model':'SM-G991B','x-device-brand':'samsung',
+             'x-device-manufacturer':'samsung','x-device-platform':'android',
+             'gaid':str(uuid.uuid4()),'device-language':'en','device-country':'US',
+             'country':'US','language':'en','mcc-country':'us','timezone':'America/New_York'}
+          body={'device_id':did,'device_name':'samsung SM-G991B',
+                'sign':hashlib.md5((SALT+did).encode()).hexdigest(),
+                'channel':'googleplay','platform':'android','pkg':'com.freereels.app',
+                'infos':'{}','sm_device_id':'','yd_token':''}
+          r=requests.post(BASE+'/anonymous/login',json=body,headers=h,timeout=30)
+          d=r.json()
+          data=d.get('data') or {}
+          if not data.get('auth_key'):
+              print('LOGIN FAILED:', d); sys.exit(1)
+          session={'device_id':did,'auth_key':data['auth_key'],
+                   'auth_secret':data['auth_secret']}
+          print('login ok, user_id:', data.get('user_id'))
+          # dosyayi guncelle
+          api='https://api.github.com/repos/tmediaagent/tmediaagentapp/contents/kb_session.json'
+          hh={'Authorization':'Bearer '+__import__('os').environ['GH_TOKEN'],
+              'Accept':'application/vnd.github+json'}
+          cur=requests.get(api,headers=hh).json()
+          new=base64.b64encode(json.dumps(session).encode()).decode()
+          if base64.b64decode(cur.get('content','')).decode().strip()==json.dumps(session):
+              print('degisiklik yok'); sys.exit(0)
+          resp=requests.put(api,headers=hh,json={'message':'kb_session yenileme',
+              'content':new,'sha':cur['sha'],'branch':'main'})
+          print('commit:', resp.status_code)
+          PY
