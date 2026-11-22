@@ -45,8 +45,8 @@
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v35/hdfilmizleyelim-v5.apk"
     },
     {
-        "name": "Kısa Diziler",
-        "fileName": "kisadiziler-v3.apk",
-        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v53/kisadiziler-v3.apk"
+        "name": "Kısa Drama Dizileri",
+        "fileName": "kisadramadizileri-v4.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v54/kisadramadizileri-v4.apk"
     }
 ]
