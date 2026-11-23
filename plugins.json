@@ -48,5 +48,10 @@
         "name": "Kısa Bölümler",
         "fileName": "kisabolumler-v4.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v62/kisabolumler-v4.apk"
+    },
+    {
+        "name": "ske",
+        "fileName": "ske-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v63/ske-v1.apk"
     }
 ]
