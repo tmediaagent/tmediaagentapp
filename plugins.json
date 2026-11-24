@@ -53,5 +53,10 @@
         "name": "ske",
         "fileName": "ske-v4.apk",
         "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v63/ske-v4.apk"
+    },
+    {
+        "name": "Diziler",
+        "fileName": "diziler-v1.apk",
+        "downloadUrl": "https://github.com/tmediaagent/tmediaagentapp/releases/download/v63/diziler-v1.apk"
     }
 ]
